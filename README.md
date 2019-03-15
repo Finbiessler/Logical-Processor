@@ -1,6 +1,6 @@
 # Logical-Processor
 A program which can process logical propositions of any length consisting of and, or and not operators. 
-Insteed of using fixed logical values you can also use strings as variables and replace them by logical values later on.
+Instead of using fixed logical values you can also use strings as variables and replace them by logical values later on.
 
 How do you evaluate such a Proposition:
 
