@@ -26,7 +26,7 @@ two = (Var "test") `And` (Not (Var "test"))
 -- CONTRACT
 three :: Prop
 -- DEFINITION
-three = ((Not $ Var "a") `And` (Var "b")) `Or` ((Var "a") `And` (Not $ Var "b"))
+three = (((Not $ Var "a") `And` (Var "b")) `Or` ((Var "a") `And` (Not $ Var "b")))
 
 ------------------------
 
